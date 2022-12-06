@@ -3,7 +3,6 @@ import { useState } from 'react'
 export default function TodoForm(props) {
     const [input, setInput] = useState('')
 
-
     const handleChange = e => {
         setInput(e.target.value); //så kan man skrive på input
     };
